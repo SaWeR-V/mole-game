@@ -1,0 +1,52 @@
+.card {
+  width: 600px;
+  margin-bottom: 0;
+}
+
+.hole-game {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+}
+
+.status {
+  margin-bottom: 20px;
+}
+.hole {
+  width: 150px;
+  height: 150px;
+  margin: 0 15px 30px;
+  background: gray;
+  border-radius: 50%;
+}
+
+.hole_has-mole {
+  background-image: url(https://e7.pngegg.com/pngimages/377/612/png-clipart-zombie-illustration-lifesize-zombie-holidays-halloween.png);
+  background-position: -390px 0px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: brown;
+}
+
+
+.rick {
+  width: 375px;
+  position: absolute;
+  top: 120px;
+  left: 545px;
+  display: none;
+  overflow: hidden;
+  animation-name: Appearence;
+  animation-duration: 0.5s;
+}
+
+@keyframes Appearence {
+  0% {
+    left: 635px;
+  }
+  100% {
+    left: 545px;
+  }
+}
